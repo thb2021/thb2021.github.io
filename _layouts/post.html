@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<!-- Outputs the title, date, and author + post content
+wrapped by default.html-->
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }}
